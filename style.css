@@ -1,3 +1,4 @@
+/* GENERAL */
 *
 {
     padding: 0;
@@ -5,9 +6,23 @@
     font-family: 'Poppins', sans-serif;
 }
 
+h1{
+    font-size: 22px;
+}
+
 h3{
     font-size: 18px;
     color: #b90032;
+}
+
+
+.container{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    margin: auto;
 }
 
 .btn-red
@@ -29,12 +44,11 @@ section{
     margin: 80px auto 0 auto;
 }
 
+/* HEADER */
 
 header
 {
     background-color: #8fb900;
-    display: flex;
-    justify-content: center;
     color: #FFF;
 }
 
@@ -53,17 +67,7 @@ header a:hover{
     background-color: #FFF;
 }
 
-header h1{
-    font-size: 22px;
-}
-
-header div{
-    width: 1160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-}
+/* SECTION MAIN IMAGE */
 
 .main-image{
     position: relative;
@@ -86,6 +90,8 @@ header div{
     color: #FFF;
     margin: 0 17px;
 }
+
+/* ITEMS */
 
 .item{
     margin-top: 25px;
@@ -111,4 +117,24 @@ header div{
 
 .description-business{
     width: 570px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #8fb900;
+    color: #FFF;
+    margin-top: 80px;
+}
+
+footer a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight:700;
+    margin-left: 10px;
+}
+
+footer p{
+    font-size: 22px;
+    font-weight:600;
 }
