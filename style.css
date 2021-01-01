@@ -5,6 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+section{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+
 header
 {
     background-color: #8fb900;
@@ -19,6 +25,7 @@ header a{
     font-size: 18px;
     padding: 12px;
     border: 2px solid #FFF;
+    font-weight: bold;
 }
 
 header a:hover{
@@ -36,4 +43,27 @@ header div{
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+}
+
+.main-image{
+    position: relative;
+    margin-top: 80px;
+}
+
+.main-image div{
+    background-color: rgba(185, 0, 50, 0.4);   
+    height: 55px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 100%;
+}
+
+.main-image p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    margin: 0 17px;
 }
